@@ -1,0 +1,21 @@
+.imageprop{
+    float: left;
+    width:135px;
+    height: 63px;
+}
+
+.fillcolor{
+    background-color: grey;
+    margin-left: -15px;
+}
+.headerTitle{
+    text-align: center;
+    color: white;
+    font-size: 32px;
+}
+
+.headerimg{
+    float: right;
+    height: 39px;
+    width: 60px;
+}
