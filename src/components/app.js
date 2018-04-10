@@ -25,7 +25,7 @@ export default class App extends Component {
         <Header />
         <SideBar />
         <div className="rowC">
-        <RowOne />
+        <RowOne/>
         </div>
         <div className="rowC">
         <SimpleMap />

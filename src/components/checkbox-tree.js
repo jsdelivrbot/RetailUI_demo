@@ -16,7 +16,7 @@ class Widget extends React.Component {
     render() {
         return (
             <div>
-            hdjdhjdhksdjhfdh
+            
             </div>
         );
     }

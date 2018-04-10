@@ -36,3 +36,8 @@
 .setprop{
    height:100vh !important;
 }
+
+.filldiv{
+    border :7px solid #ccc;
+    text-align: center;
+}

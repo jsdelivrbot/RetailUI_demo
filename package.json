@@ -40,6 +40,7 @@
     "react-checkbox-tree": "^1.1.0",
     "react-d3-basic": "^1.6.11",
     "react-d3-components": "^0.9.1",
+    "react-date-range": "^0.9.4",
     "react-dom": "^0.14.9",
     "react-icons": "^2.2.7",
     "react-pie3d": "0.0.3",
