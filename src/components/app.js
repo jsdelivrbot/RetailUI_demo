@@ -10,21 +10,34 @@ import SamplePieChart from './sample-pie-chart';
 import MixBarChart from './mix-bar-chart';
 import CustomBarGraph from './custom-bar-chart';
 import HighLightLineChart from './highlight-zoom-line-chart';
+import Widget from './checkbox-tree';
+import RowOne from './firstRow'
 
 import SimpleBarGraph from './bar-graph';
 //import BarChart from 'react-d3-components';
 
 
 export default class App extends Component {
+   
   render() {
     return (
       <div>
         <Header />
         <SideBar />
+        <div className="rowC">
+        <RowOne />
+        </div>
+        <div className="rowC">
         <SimpleMap />
+        <Widget />
+        </div>
+        <div className ="rowC">
+        
         <SampleLineChart />
         <NewBarChart />
         <MixBarChart />
+        </div>
+        <div className="rowC">
         <SampleRadialChart />
         <CustomBarGraph />
         <Pie3D data={[
@@ -44,9 +57,15 @@ export default class App extends Component {
     label: 'Others'
   }
 ]}/>
-        <SimpleBarGraph />
+        
+        </div>
+        <div className="rowC">
         <SamplePieChart />
         <HighLightLineChart />
+        <SimpleBarGraph />
+        </div>
+        
+        
     
        
         </div>

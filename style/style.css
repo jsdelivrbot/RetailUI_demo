@@ -23,3 +23,16 @@
 .pieChart{
     
 }
+
+
+.fillSideBar{
+   background-color: whitesmoke;
+    border:1px solid #ccc;
+    width:7% !important;
+    height:100vh !important;
+}
+.rowC{display:flex; flex-direction:row;}
+
+.setprop{
+   height:100vh !important;
+}
