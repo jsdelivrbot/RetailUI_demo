@@ -31,7 +31,7 @@
     width:7% !important;
     height:100vh !important;
 }
-.rowC{display:flex; flex-direction:row;}
+.rowC{display:flex; flex-direction:row; margin-left: 0% !important}
 
 .setprop{
    height:100vh !important;
@@ -40,4 +40,19 @@
 .filldiv{
     border :7px solid #ccc;
     text-align: center;
+}
+
+.addborder{
+    border-right: 7px solid #ccc;
+}
+
+.addheight{
+    height:25vh !important;
+    text-align: center;
+    color:dimgrey;
+    vertical-align: middle;
+}
+
+.setimg{
+        margin-top: 50%;
 }

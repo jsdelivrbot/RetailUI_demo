@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from './header';
 import SideBar from './side_bar';
 import SimpleMap from './google_map';
+//import NewCheckBoxTree from './new-checkbox-tree';
 import Pie3D from 'react-pie3d';
 import SampleLineChart from './sample-line-chart';
 import NewBarChart from './new-barchart';
@@ -10,7 +11,8 @@ import SamplePieChart from './sample-pie-chart';
 import MixBarChart from './mix-bar-chart';
 import CustomBarGraph from './custom-bar-chart';
 import HighLightLineChart from './highlight-zoom-line-chart';
-import Widget from './checkbox-tree';
+import DatePickerComponent from './date-picker';
+
 import RowOne from './firstRow'
 
 import SimpleBarGraph from './bar-graph';
@@ -27,19 +29,37 @@ export default class App extends Component {
         <div className="rowC">
         <RowOne/>
         </div>
-        <div className="rowC">
+        <div className="rowC filldiv">
+        <div className="addborder">
+        <DatePickerComponent  />
+        </div>
+        <div className="addborder">
         <SimpleMap />
-        <Widget />
         </div>
-        <div className ="rowC">
-        
+        <div >
+        <MixBarChart  />
+        </div>
+        </div>
+        <div className ="rowC filldiv">
+        <div className="addborder">
         <SampleLineChart />
-        <NewBarChart />
-        <MixBarChart />
         </div>
-        <div className="rowC">
-        <SampleRadialChart />
+        <div className="addborder">
+        <NewBarChart />
+        </div>
+        <div className="">
         <CustomBarGraph />
+        </div>
+        
+        </div>
+        <div className="rowC filldiv">
+        <div className="addborder">
+         <SampleRadialChart />
+        </div>
+        <div className="addborder">
+        <SamplePieChart />
+        </div>
+        
         <Pie3D data={[
   {
     value: 10,
@@ -58,9 +78,14 @@ export default class App extends Component {
   }
 ]}/>
         
+       
+        
+        
+        
+        
         </div>
         <div className="rowC">
-        <SamplePieChart />
+        
         <HighLightLineChart />
         <SimpleBarGraph />
         </div>
